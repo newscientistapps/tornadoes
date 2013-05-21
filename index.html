@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Deadly tornadoes | New Scientist</title>
+  	<script src="http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js"></script>
+	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+	<link href="css/tornadoes.css" rel="stylesheet" type="text/css" />
+ 	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="js/chart.js"></script>
+ 	<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-37549685-7', 'newscientistapps.com');
+  ga('send', 'pageview');
+ 
+</script>
+
+</head>
+
+<body>
+	
+    <div id="header">
+
+        <a href="http://www.newscientist.com/" target="_blank"><img src="img/NSlogo.png" alt="NS logo"/></a>
+
+	</div>
+
+    <div id="panel">
+	
+		<h2>America's deadly tornadoes</h2>
+
+		<p>With the confirmed death toll of 51 certain to rise, the tornado that hit Moore, Oklahoma (see marker), on 20 May could rival the <a href="http://www.noaanews.noaa.gov/stories2011/20110920_joplin.html" target="_blank">2011 twister that devastated Joplin, Missouri</a>, as the deadliest since detailed records have been kept.</p>
+
+		<p>Sadly, the US is <a href="http://www.spc.noaa.gov/faq/tornado/#History" target="_blank">no stranger to such devastation</a>, as this map of fatal tornadoes from 1950 to 2012 reveals. Hover over the circles, which are scaled according to the number of fatalities, to lean more about each event, and view the death toll per year on the chart below.</p> 
+
+ 		<p style="font-family: arial; font-size:12px">Source: <a href="http://www.spc.noaa.gov/wcm/#data" target="_blank">NOAA Storm Prediction Center</a>; graphic by Peter Aldhous, published 21 May 2013<a/>.</p>
+
+
+	</div>
+
+	<div id="chart">
+
+		<div id="container"></div>
+
+	</div>	
+		
+		<div id="map">
+
+	<script src="js/maps.js"></script>
+
+	</div>
+	
+		
+</body>
+</html>
