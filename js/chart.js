@@ -48,7 +48,7 @@ $(function () {
                     text: 'Deaths per year',
                     style: {
 	                     color: '#000',
-	                     fontWeight: '400'
+	                     fontWeight: '800'
                     	}
                     },
                 max: 500,
