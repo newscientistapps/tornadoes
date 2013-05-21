@@ -1,8 +1,10 @@
 @charset "utf-8";
 
-a:link, a:visited, a:hover, a:active {color:#000080;}
+a:link, a:visited, a:hover, a:active {color:#000000;}
 
 #back a {color:#ffffff;}
+
+#panel a {color:#000080;}
 
 a img {border: none; }
 
@@ -83,8 +85,8 @@ body  {
 }
 
 .leaflet-popup {
-	max-width:200px;
 	z-index: 9999;
 	color: #000;
 }
+
 
